@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Oswald&display=swap');
+
+body{
+	background-color: rgba(120, 223, 120, 0.1 );
+}
+
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+      margin: 40px auto;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
+.img-round {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+
+.header {
+	color: rgba(58, 55, 55, 1.0);
+	font-family: 'Lato', sans-serif;
+  font-size: larger;
+  padding: 20px;
+  border-radius: 5px;
+  background-color:rgba(19, 20, 19, 0.3);
+  width: 400;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.text-center {
+  text-align: center;
+}
+
+.card-light-gray {
+  color: rgb(48, 53, 48);
+  font-family: 'Oswald', sans-serif;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  background-color: rgb(145, 129, 129);
+  border-radius: 5px;
+}
+
+p {
+  font-size: medium;
+}
+
+a {
+	text-decoration: none;
+	color:rgb(154, 179, 165);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:hover {
+	color:rgb(152, 184, 65);
+}
+
+.my-button {
+	background-color:#ee0f0f;
+  font-family: 'Oswald', sans-serif;
+	color:#fcfcfc;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+  text-align: center;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+ }
+
+.myButton:hover {
+	background-color:#e6ff02;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  font-size: 15px;
+  padding: 5px;
+  display: inline-block;
+}
+
+.margin-left-right-auto{
+display:block;
+margin-left: auto;
+margin-right: auto;
+}
